@@ -1,0 +1,90 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #F2E9E1;
+    margin: 0;
+    height: 100%;
+}
+#main{
+    background-color: #CBE86B;
+    position: relative;
+    user-select: none;
+    max-width: 1200px;
+    height: calc(100% - 10px);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+#Main-Href{
+    color: black;
+    text-decoration: none;
+}
+#tytul{
+    text-align: center;
+}
+#broot{
+    position:absolute;
+    background-color: #F2E9E1;
+    opacity: 70%;
+    margin-top: 10px;
+    width: 76%;
+    margin-left: 12%;
+    margin-right: auto;
+    text-align: center;
+}
+#Menu-Button{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: 0;
+}
+#Sub-Button{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: calc(100% - 50px)
+}
+#Menu-Button, #Sub-Button{
+    cursor: pointer;
+}
+#Menu-Root{
+    position: relative;
+    width: calc(25% + (200px - 75px));
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.Menu-List{
+    text-align: center;
+    margin-left: -15.37px;
+}
+.MLA{
+    font-size: 16px;
+    line-height: 30px;
+}
+.MLA:hover{
+    color: red;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.hidden{
+    visibility: hidden;
+    display: none;
+    pointer-events: none;
+}
+#Menu-Svg, #MMenu-Svg{
+    width: 100%;
+    height: 100%;
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    stroke-linejoin:round;
+    stroke-miterlimit:1.41421;
+}
+.Und{
+    text-decoration: underline;
+}
