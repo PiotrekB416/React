@@ -1,0 +1,37 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "react",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrekB416/React.git"
+  },
+  "author": "PiotrekB416",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiotrekB416/React/issues"
+  },
+  "homepage": "https://github.com/PiotrekB416/React#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.0",
+    "@babel/plugin-transform-runtime": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/runtime": "^7.18.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.2.2",
+    "path": "^0.12.7",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
