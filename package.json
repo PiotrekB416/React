@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/PiotrekB416/React/issues"
   },
-  "homepage": "https://github.com/PiotrekB416/React",
+  "homepage": "https://piotrekb416.github.io/React",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.0",
