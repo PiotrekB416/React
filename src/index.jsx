@@ -1,6 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import {App, Opinion} from "./app/App.jsx";
+import {App} from "./app/App.jsx";
+import { Opinion } from "./opinion/opinion.jsx";
 import Sub_Menu from "./Button/LoadButton";
 import Change from "./Roll/Change";
 
