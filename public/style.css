@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 html{
     height: 100%;
 }
@@ -11,7 +12,7 @@ body{
     position: relative;
     user-select: none;
     max-width: 1200px;
-    height: calc(100% - 10px);
+    min-height: calc(100% - 10px);
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
@@ -72,6 +73,10 @@ body{
     line-height: 30px;
     cursor: pointer;
 }
+.MLL{
+    list-style-position: inside;
+    margin-left: calc(-15.3px - (0.2px / 3));
+}
 .hidden{
     visibility: hidden;
     display: none;
@@ -87,4 +92,162 @@ body{
 }
 .Und{
     text-decoration: underline;
+}
+#footer{
+    position: fixed;
+    height: 100px;
+    margin: auto;
+    bottom: 0;
+    width: 100%;
+    background-color: #AFD040;
+    z-index: 10;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+@media screen and (min-width: 1200px) {
+    #footer{
+        position: fixed;
+        height: 100px;
+        margin: auto;
+        bottom: 0;
+        width: 1200px;
+        background-color: #AFD040;
+        z-index: 10;
+        text-align: center;
+        display: flex; 
+        align-items: center;
+        justify-content: center; 
+    }
+}
+
+#footerHref{
+    text-decoration: none;
+    color: black;
+    font-size: 26pt;
+    line-height: 36pt;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    height: 55px;
+}
+#footerdiv{
+    position: absolute;
+
+    height: 36pt;
+    top: calc(50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: fit-content;
+    padding: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 461px) {
+    #footer{
+        position: fixed;
+        height: calc(100px + 36pt);
+        margin: auto;
+        bottom: 0;
+        width: 100%;
+        background-color: #AFD040;
+        z-index: 10;
+        text-align: center;
+        display: flex; 
+        align-items: center;
+        justify-content: center; 
+    }
+    #footerdiv:hover{
+        position: absolute;
+        height: 72pt;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #footerdiv{
+        position: absolute;
+        height: 72pt;
+        top: 50%;
+        padding: 0%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+    }
+}
+#footerHref:hover{
+    color: red;
+    font-size: 30pt;
+    line-height: 36pt;
+
+}
+.rotcl{
+    animation: clockwise 200ms;
+}
+.rotclr{
+    animation: revclockwise 200ms;
+}
+.rotccl{
+    animation: counterclockwise 200ms;
+}
+.rotcclr{
+    animation: revcounterclockwise 200ms;
+}
+.rot-90{
+    transform: rotate(-90deg);
+}
+.rot0{
+    transform: rotate(0deg);
+}
+.rot90{
+    transform: rotate(90deg);
+}
+
+@keyframes clockwise {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes revclockwise {
+    from{
+        transform: rotate(90deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes counterclockwise {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-90deg);
+    }
+}
+
+@keyframes revcounterclockwise {
+    from{
+        transform: rotate(-90deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
 }
